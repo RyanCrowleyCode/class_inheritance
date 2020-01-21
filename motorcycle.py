@@ -6,3 +6,6 @@ class Zero(Vehicle):
 
     def charge_battery(self):
         pass
+
+    def drive(self):
+        print(f'The {self.main_color} Zero drives past. ZEEEEE!!')

@@ -6,3 +6,6 @@ class Ram(Vehicle):
 
     def refuel_tank(self):
         pass
+
+    def drive(self):
+        print(f'The {self.main_color} Ram drives past. AYYUUUGAHH!')

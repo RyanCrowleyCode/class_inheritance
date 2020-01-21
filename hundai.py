@@ -6,3 +6,6 @@ class Hundai(Vehicle):
 
     def refuel_tank(self):
         pass
+
+    def drive(self):
+        print(f'The {self.main_color} Hundai drives past. VROOOOM!!')

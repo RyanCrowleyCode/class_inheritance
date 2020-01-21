@@ -8,4 +8,4 @@ class Tesla(Vehicle):
         pass
 
     def drive(self):
-        print("Zooooooooooooommm!")
+        print(f'The {self.main_color} Tesla drives past. ZEEEEEOOOWW!!')

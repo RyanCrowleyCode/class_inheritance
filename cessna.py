@@ -8,4 +8,4 @@ class Cessna(Vehicle):
         pass
 
     def drive(self):
-        print("BBBBBRRRRRRROOOOOOOWWWWWWWWMMMMM!!!")
+        print(f'The {self.main_color} Cessna flies past. BBBBRRRROOOOOOWWWWWMMMM!!!')
