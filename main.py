@@ -36,11 +36,18 @@ ryanmobile.maximum_occupancy = 5
 
 vehicles = [fxs, modelS, mx410, bubba, ryanmobile]
 
-for vehicle in vehicles:
-    vehicle.drive()
-    print()
+
 
 # Create a turn(self, direction) method, and a stop(self) method on Vehicle. Define a basic implementation of each.
+
 # Override all three of those methods on some of the vehicles. For example, the stop() method for a plane would be to output the message "The white Cessna rolls to a stop after rolling a mile down the runway."
+
 # Make your vehicle instances perform all three behaviors.
+for vehicle in vehicles:
+    vehicle.drive()
+    vehicle.turn("left")
+    vehicle.stop()
+    print()
+
+
 

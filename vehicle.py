@@ -5,3 +5,9 @@ class Vehicle:
 
     def drive(self):
         print("VROOOM!!")
+
+    def turn(self, direction):
+        print(f"The vehicle turns to the {direction}!")
+
+    def stop(self):
+        print("The vehicle stops safely.")
